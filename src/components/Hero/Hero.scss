@@ -1,17 +1,76 @@
 @import '../../styles/core/variables';
 
 .hero-header__background {
-  height: 65px;
+  height: 63px;
   width: 100%;
   background-color: $colorSecondary;
   position: absolute;
+  @media all and (min-width: 450px) {
+    height: 65px;    
+  }
 }
 
 .hero__container {
-  background-image: url("images/background__rocks.PNG");
+  background-image: url("images/background.PNG");
   height: 100vh;
+  //poner cover en background
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 
 .hero__photo {
-  width: 100px;
+
+}
+
+.hero__text {
+  padding: 40px;
+  @media all and (min-width: 768px) {
+    margin-left: 50px;
+  }
+}
+
+.hero__text--name {
+  font-size: $fontSize_bigHero;
+  font-weight: $fontWeight_bold;
+}
+
+.hero__text--job {
+  font-size: $fontSize_hero;
+  font-weight: $fontWeight_bold;
+}
+
+.hero__dinamic--wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.hero__dinamic {
+  width: 30px;
+  height: 30px;
+  transform: rotate(90deg);
+  border-radius: 50px;
+  text-align: center;
+  background-color: $colorPrimary;
+  position: absolute;
+  bottom: -15px;
+  box-shadow: 0 0 10px $colorPrimary;
+  animation-name: face;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  @keyframes face {
+    0% {
+      bottom: -20px;
+    }
+    30% {
+      bottom: 15px;
+    }
+    100% {
+      bottom: -20px;
+    }
+  }
 }

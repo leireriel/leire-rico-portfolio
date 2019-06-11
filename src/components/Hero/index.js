@@ -8,10 +8,17 @@ class Hero extends Component {
         <div className="hero-header__background"></div>
         <div className="hero__container">
           <img 
-            src="images/fotoamarilla.jpg" 
+            src="components/Hero/images/leire.png" 
             alt="Leire Rico"
             className="hero__photo"
             />
+          <div className="hero__text">
+            <h1 className="hero__text--name">Leire Rico</h1>
+            <h2 className="hero__text--job">Front-end developer</h2>
+          </div>
+        </div>
+        <div className="hero__dinamic--wrapper">
+          <div className="hero__dinamic">:)</div>
         </div>
       </Fragment>
     );
