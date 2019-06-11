@@ -4,16 +4,19 @@ import Hero from './components/Hero';
 import Developer from './components/Developer';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import { Switch, Route } from 'react-router-dom';
+import './App.scss';
 
 class App extends Component {
   render() {
     return (
       <Fragment>
-        <p>hola</p>
         <Header />
-        <Hero />
-        <Developer />
-        <Projects />
+        <main>
+          <Hero />
+          <Developer />
+          <Projects />
+        </main>
         <Footer />
       </Fragment>
     );
