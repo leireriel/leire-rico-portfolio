@@ -8,7 +8,7 @@ class Header extends Component {
         <nav className="nav__container">
           <ol className="nav__list">
             <li className="nav__item nav__item--icon">
-              <a href="/html/" className="nav__link">
+              <a href="#..." className="nav__link">
                 <i className="fas fa-home"></i>
               </a>
             </li>

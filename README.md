@@ -22,13 +22,20 @@ You need to install [Node.js](https://nodejs.org/), and then:
 ```
 /
 `-_src
+    |_App
     |_components
-        |_App
-        |_...
-        [ in progress :) ]
+        |_Header
+        |_Hero
+        |_Developer
+        |_Projects
+        |_Footer
+    |_styles
+        |_core
+
+        [ ... in progress :) ]
 ```
 
-## 👩🏻‍💻 Find me on linkedin 
+## 👩🏻‍💻 Find me on LinkedIn
 * [Leire Rico](https://www.linkedin.com/in/leirerico/)
 
 ## 🙏🏿 Acknowledgments 
