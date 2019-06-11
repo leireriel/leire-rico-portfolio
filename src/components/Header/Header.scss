@@ -4,6 +4,7 @@
   background-color: $colorSecundary;
   font-weight: $fontWeight_light;
   font-size: $fontSize_small;
+  box-shadow: 0 0 5px $colorSecundary;
   @media all and (min-width: 450px) {
     font-size: $fontSize_medium;
   }
@@ -26,6 +27,8 @@
   transition: background-color ease 1s;
   &:hover {
     background-color: $colorPrimary;
+    box-shadow: 0 0 5px $colorPrimary;
+    cursor: pointer;
     .nav__link {
       font-weight: $fontWeight_medium;
       color: $colorOrange;
