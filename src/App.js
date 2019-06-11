@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Developer from './components/Developer';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import './App.scss';
 
 class App extends Component {
   render() {
