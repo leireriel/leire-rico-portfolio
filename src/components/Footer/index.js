@@ -4,7 +4,9 @@ class Footer extends Component {
   render() {
     return (
       <Fragment>
-        <p>footer</p>
+        <footer>
+          <p>footer</p>
+        </footer>
       </Fragment>
     );
   }

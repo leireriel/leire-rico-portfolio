@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Developer from './components/Developer';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import { Switch, Route } from 'react-router-dom';
 import './App.scss';
 
 class App extends Component {
@@ -11,9 +12,11 @@ class App extends Component {
     return (
       <Fragment>
         <Header />
-        <Hero />
-        <Developer />
-        <Projects />
+        <main>
+          <Hero />
+          <Developer />
+          <Projects />
+        </main>
         <Footer />
       </Fragment>
     );
