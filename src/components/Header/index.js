@@ -4,7 +4,7 @@ import './Header.scss';
 class Header extends Component {
   render() {
     return (
-      <header>
+      <header className="header__container">
         <nav className="nav__container">
           <ol className="nav__list">
             <li className="nav__item nav__item--icon">

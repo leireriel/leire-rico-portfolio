@@ -1,0 +1,17 @@
+@import '../../styles/core/variables';
+
+.hero-header__background {
+  height: 65px;
+  width: 100%;
+  background-color: $colorSecondary;
+  position: absolute;
+}
+
+.hero__container {
+  background-image: url("images/background__rocks.PNG");
+  height: 100vh;
+}
+
+.hero__photo {
+  width: 100px;
+}

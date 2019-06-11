@@ -1,10 +1,17 @@
 @import '../../styles/core/variables';
 
+.header__container {
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
 .nav__container {
-  background-color: $colorSecundary;
+  background-color: $colorSecondary;
+  opacity: 0.8;
   font-weight: $fontWeight_light;
   font-size: $fontSize_small;
-  box-shadow: 0 0 5px $colorSecundary;
+  box-shadow: 0 0 5px $colorSecondary;
   @media all and (min-width: 450px) {
     font-size: $fontSize_medium;
   }
@@ -15,7 +22,7 @@
   justify-content: space-between;
   list-style: none;
   margin: 0;
-  padding: 20px 10%;
+  padding: 18px 10%;
   @media all and (min-width: 768px) {
     justify-content: flex-start;
   }
