@@ -6,7 +6,7 @@ Developed with ❤️ and data provided by [Git Hub API](http:...) :)
 ## 🏗 Getting Started
 
 You need to install [Node.js](https://nodejs.org/), and then:
-1. Clone the repository
+1. Clone the repository with `$ git clone https://github.com/leireriel/leire-rico-portfolio.git`
 2. Install dependencies with `$ npm install`
 3. Run the project with `$ npm start`
 
@@ -25,6 +25,7 @@ You need to install [Node.js](https://nodejs.org/), and then:
     |_components
         |_App
         |_...
+        [ in progress :) ]
 ```
 
 ## 👩🏻‍💻 Find me on linkedin 
