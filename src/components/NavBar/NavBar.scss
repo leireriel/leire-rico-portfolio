@@ -1,17 +1,14 @@
 @import '../../styles/core/variables';
 
-.header__container {
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-}
-
 .nav__wrapper {
   background-color: $colorSecondaryOp;
   font-weight: $fontWeight_light;
   font-size: $fontSize_small;
   box-shadow: 0 0 5px $colorSecondary;
   height: 65px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   @media all and (min-width: 450px) {
     font-size: $fontSize_medium;
   }

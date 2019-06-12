@@ -14,8 +14,8 @@ class Developer extends Component {
     return (
       <div className="developer__container">
         <div className="developer__description--container">
-          <h3 className="developer__description--title">Quién soy</h3>
-          <p className="developer__description--text">
+          <h3 className="section__title">Quién soy</h3>
+          <p className="section__text">
             ¡Hola! Me llamo Leire y me apasiona la programación <strong>front-end</strong>.
             A la hora de programar, soy muy curiosa y me gusta probar cosas nuevas y entender cómo funcionan.
             <strong>Me encanta aprender</strong>, ya sea haciendo pair programming o por mi cuenta, y siempre intento <strong>aportar sugerencias</strong>. 
