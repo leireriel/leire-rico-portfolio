@@ -11,7 +11,7 @@
 }
 
 .hero__container {
-  background-image: url("images/background.PNG");
+  background-image: url("images/background__rocks.PNG");
   height: 100vh;
   //poner cover en background
   display: flex;
@@ -23,17 +23,14 @@
   }
 }
 
-.hero__photo--wrapper {
-  
-}
-
 .hero__photo {
   width: 150px;
-  margin-top: 50px;
   box-shadow: 5px -5px 10px $colorGrey;
   border-radius: 50%;
+  margin-top: 50px;
   @media all and (min-width: 450px) {
     width: 200px;
+    margin-top: 0;
   }
   @media all and (min-width: 768px) {
     width: 300px;
@@ -41,12 +38,11 @@
 }
 
 .hero__text {
-  padding: 0 40px;
-  text-align: center;
-  min-width: 320px;
+  max-width: 320px;
+  color: $colorPrimary;
+  text-shadow: 0 0 5px $colorSecondary;
   @media all and (min-width: 768px) {
     margin-left: 50px;
-    text-align: left;
   }
 }
 
