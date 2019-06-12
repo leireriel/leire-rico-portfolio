@@ -88,10 +88,10 @@
   &:active {
     color: $colorLime;
   }
-  animation-name: face;
+  animation-name: arrow;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-  @keyframes face {
+  @keyframes arrow {
     0% {
       bottom: -10px;
     }
