@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './DeveloperLogo.scss';
 
 class DeveloperLogo extends Component {
@@ -15,5 +16,10 @@ class DeveloperLogo extends Component {
     );
   }
 }
+
+DeveloperLogo.propTypes = {
+  link: PropTypes.string,
+  description: PropTypes.string,
+};
 
 export default DeveloperLogo;

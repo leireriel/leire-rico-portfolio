@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './ProjectDetails.scss';
 
 class ProjectDetails extends Component {
@@ -17,6 +18,10 @@ class ProjectDetails extends Component {
   }
 }
 
-//proptypes
+ProjectDetails.propTypes = {
+  title: PropTypes.string,
+  link: PropTypes.string,
+  description: PropTypes.string,
+};
 
 export default ProjectDetails;
