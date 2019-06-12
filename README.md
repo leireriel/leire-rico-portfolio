@@ -27,6 +27,7 @@ You need to install [Node.js](https://nodejs.org/), and then:
         |_NavBar
         |_Hero
         |_Developer
+            |_DeveloperLogo
         |_Projects
             |_ProjectDetails
         |_Contact
