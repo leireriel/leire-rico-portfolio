@@ -1,0 +1,33 @@
+@import '../../styles/core/variables';
+
+.developer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  @media all and (min-width: 450px) {
+    padding: 20px 40px;
+  }
+}
+
+.developer__description--container {
+  @media all and (min-width: 768px) {
+    width: 500px;
+  }
+}
+
+.developer__images--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.developer__image {
+  padding: 10px;
+  width: 60px;
+  @media all and (min-width: 768px) {
+    width: 80px;
+  }
+}
