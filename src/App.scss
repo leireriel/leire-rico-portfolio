@@ -19,6 +19,8 @@ body {
 .section__title {
   font-size: $fontSize_title;
   font-weight: $fontWeight_bold;
+  text-transform: uppercase;
+  color: $colorLime;
 }
 
 .section__text {
