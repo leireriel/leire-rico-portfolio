@@ -10,7 +10,7 @@ class Projects extends Component {
           <h3 className="section__title">Proyectos</h3>
           <p className="section__text">Estos son algunos de mis últimos proyectos:</p>
         </div>
-        <div className="section__images--container projects__container">
+        <ol className="section__images--container projects__container">
           <ProjectDetails
             title="Harry Potter"
             link="http://beta.adalab.es/f-m3-evaluacion-final-leireriel/#/"
@@ -41,8 +41,8 @@ class Projects extends Component {
             link="http://beta.adalab.es/f-m2-evaluacion-intermedia-leireriel/"
             description="¡Adivina el número secreto! - Vanilla JS"
           />
-        </div>
-        <a href="https://github.com/leireriel/" className="section__text projects__github--link">
+        </ol>
+        <a href="https://github.com/leireriel/" className="section__text projects__github--link" target="_blank" rel="noopener noreferrer">
           <p>
             <span role="img" aria-label="emoji of arrow">👉</span>
             Aquí están todos mis repositorios de Git Hub

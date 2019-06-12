@@ -6,7 +6,7 @@ import css3Img from './images/css3.png';
 import sassImg from './images/sass.png'
 import gitImg from './images/git.png';
 import npmImg from './images/npm.png';
-
+import DeveloperLogo from './components/DeveloperLogo';
 import './Developer.scss';
 
 class Developer extends Component {
@@ -23,43 +23,15 @@ class Developer extends Component {
             Además, en mi código voy aplicando todo lo que aprendo sobre <strong>Clean Code :)</strong>
           </p>
         </div>
-        <div className="section__images--container">
-          <img 
-            src={reactImg} 
-            alt="Logo de librería React, Javascript"
-            className="developer__image"  
-          />
-          <img 
-            src={javascriptImg} 
-            alt="Logo de Javascript"
-            className="developer__image"  
-          />
-          <img 
-            src={html5Img} 
-            alt="Logo de HTML"
-            className="developer__image"  
-          />
-          <img 
-            src={css3Img} 
-            alt="Logo de CSS"
-            className="developer__image"  
-          />
-          <img 
-            src={sassImg} 
-            alt="Logo de SASS, SCSS"
-            className="developer__image"  
-          />
-          <img 
-            src={gitImg} 
-            alt="Logo de Git"
-            className="developer__image"  
-          />
-          <img 
-            src={npmImg} 
-            alt="Logo de NPM"
-            className="developer__image"  
-          />
-        </div>
+        <ol className="section__images--container developer__container">
+          <DeveloperLogo link={reactImg} description="Librería React, Javascript" />
+          <DeveloperLogo link={javascriptImg} description="Javascript" />
+          <DeveloperLogo link={html5Img} description="HTML" />
+          <DeveloperLogo link={css3Img} description="CSS" />
+          <DeveloperLogo link={sassImg} description="SASS, SCSS" />
+          <DeveloperLogo link={gitImg} description="Git" />
+          <DeveloperLogo link={npmImg} description="NPM gestor de paquetes" />
+        </ol>
       </div>
     );
   }
