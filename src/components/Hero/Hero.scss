@@ -81,6 +81,12 @@
   text-decoration: none;
   font-size: $fontSize_medium;
   font-weight: $fontWeight_regular;
+  &:hover {
+    box-shadow: 0 0 3px $colorLime;
+  }
+  &:active {
+    color: $colorLime;
+  }
   animation-name: face;
   animation-duration: 4s;
   animation-iteration-count: infinite;

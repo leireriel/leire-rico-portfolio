@@ -2,7 +2,9 @@
 
 .developer__container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 20px;
 }
 
@@ -20,4 +22,19 @@
 .developer__description--text {
   font-size: $fontSize_medium;
   font-weight: $fontWeight_regular;
+}
+
+.developer__images--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.developer__image {
+  padding: 10px;
+  width: 60px;
+  @media all and (min-width: 768px) {
+    width: 80px;
+  }
 }
