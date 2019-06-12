@@ -23,7 +23,7 @@ class Developer extends Component {
             Además, en mi código voy aplicando todo lo que aprendo sobre <strong>Clean Code :)</strong>
           </p>
         </div>
-        <div className="developer__images--container">
+        <div className="section__images--container">
           <img 
             src={reactImg} 
             alt="Logo de librería React, Javascript"

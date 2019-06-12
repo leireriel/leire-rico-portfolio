@@ -1,7 +1,7 @@
 # PORTFOLIO
 ## This is my portfolio created with #reactJS⚛
 
-Developed with ❤️ and data provided by [Git Hub API](http:...) :)
+Developed with ❤️ :)
 
 ## 🏗 Getting Started
 
@@ -24,15 +24,14 @@ You need to install [Node.js](https://nodejs.org/), and then:
 `-_src
     |_App
     |_components
-        |_Header
+        |_NavBar
         |_Hero
         |_Developer
         |_Projects
-        |_Footer
+            |_ProjectDetails
+        |_Contact
     |_styles
         |_core
-
-        [ ... in progress :) ]
 ```
 
 ## 👩🏻‍💻 Find me on LinkedIn
@@ -41,3 +40,5 @@ You need to install [Node.js](https://nodejs.org/), and then:
 ## 🙏🏿 Acknowledgments 
 
 To [Adalab team](https://github.com/adalab), for giving me training as a front end developer!
+
+Thanks for reading!

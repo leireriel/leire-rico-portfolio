@@ -1,0 +1,30 @@
+@import '../../../styles/core/variables';
+
+.project__wrapper {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project__link {
+  text-decoration: none;
+}
+
+.project__item {
+  background-color: $colorGrey;
+  width: 150px;
+  height: 100px;
+  font-size: $fontSize_small;
+  color: $colorSecondary;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 1px 1px 5px $colorSecondary;
+  &:hover {
+    box-shadow: 1px 1px 5px $colorLime;
+  }
+}
+
+.project__title {
+  font-weight: $fontWeight_bold;
+}
+
