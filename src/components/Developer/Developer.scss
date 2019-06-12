@@ -1,18 +1,5 @@
 @import '../../styles/core/variables';
 
-.developer__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.developer__description--container {
-  @media all and (min-width: 768px) {
-    width: 500px;
-  }
-}
-
 .developer__images--container {
   display: flex;
   justify-content: center;
