@@ -22,7 +22,7 @@ class Developer extends Component {
             Tengo gran capacidad de adaptabilidad y me siento muy motivada cuando puedo trabajar en <strong>proyectos nuevos</strong>.
             Además, en mi código voy aplicando todo lo que aprendo sobre <strong>Clean Code :)</strong>
           </p>
-          <h4 className="section__text">Lenguajes y tecnologias que uso:</h4>
+          <h4 className="section__text">Lenguajes y tecnologías que uso por ahora:</h4>
         </div>
         <ol className="section__images--container developer__container">
           <DeveloperLogo link={reactImg} description="Librería React, Javascript" />
