@@ -12,7 +12,7 @@ import './Developer.scss';
 class Developer extends Component {
   render() {
     return (
-      <div className="developer__container">
+      <div className="developer__container section__container">
         <div className="developer__description--container">
           <h3 className="section__title">Quién soy</h3>
           <p className="section__text">
