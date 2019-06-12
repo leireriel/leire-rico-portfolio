@@ -1,0 +1,9 @@
+@import '../../styles/core/variables';
+
+.projects__github--link {
+  color: $colorSecondary;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

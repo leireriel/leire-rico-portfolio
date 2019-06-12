@@ -12,8 +12,8 @@ import './Developer.scss';
 class Developer extends Component {
   render() {
     return (
-      <div className="developer__container section__container">
-        <div className="developer__description--container">
+      <div className="section__container section__padding">
+        <div className="section__center">
           <h3 className="section__title">Quién soy</h3>
           <p className="section__text">
             ¡Hola! Me llamo Leire y me apasiona la programación <strong>front-end</strong>.

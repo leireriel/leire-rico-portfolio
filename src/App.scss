@@ -10,6 +10,22 @@ body {
 }
 
 .section__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  @media all and (min-width: 768px) {
+    align-items: center;
+  }
+}
+
+.section__center {
+  @media all and (min-width: 768px) {
+    width: 500px;
+  }
+}
+
+.section__padding {
   padding: 20px;
   @media all and (min-width: 450px) {
     padding: 20px 40px;
