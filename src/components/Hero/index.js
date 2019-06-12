@@ -19,7 +19,7 @@ class Hero extends Component {
           </div>
         </div>
         <div className="hero__dinamic--wrapper">
-          <div className="hero__dinamic">:)</div>
+          <a href="#..." className="hero__dinamic">></a>
         </div>
       </Fragment>
     );
