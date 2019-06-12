@@ -9,6 +9,13 @@ body {
   background-color: $colorPrimary;
 }
 
+.section__container {
+  padding: 20px;
+  @media all and (min-width: 450px) {
+    padding: 20px 40px;
+  }
+}
+
 .section__title {
   font-size: $fontSize_title;
   font-weight: $fontWeight_bold;

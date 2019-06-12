@@ -1,12 +1,12 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 
 class Projects extends Component {
   render() {
     return (
-      <Fragment>
+      <div className="section__container">
         <p>Projects</p>
         <a href="https://github.com/leireriel/">Github repos</a>
-      </Fragment>
+      </div>
     );
   }
 }

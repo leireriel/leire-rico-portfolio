@@ -1,10 +1,10 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import './Contact.scss';
 
 class Footer extends Component {
   render() {
     return (
-      <div className="contact__wrapper">
+      <div className="contact__wrapper section__container">
         <h3 className="section__title">Contacto</h3>
         <nav className="contact__container">
           <ol className="contact__list">
