@@ -1,0 +1,23 @@
+@import '../../styles/core/variables';
+
+.developer__container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.developer__description--container {
+  @media all and (min-width: 768px) {
+    width: 500px;
+  }
+}
+
+.developer__description--title {
+  font-size: $fontSize_title;
+  font-weight: $fontWeight_bold;
+}
+
+.developer__description--text {
+  font-size: $fontSize_medium;
+  font-weight: $fontWeight_regular;
+}
