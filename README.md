@@ -36,13 +36,19 @@ You need to install [Node.js](https://nodejs.org/), and then:
         |_core
 ```
 
+## 📈 To Do list
+
+* Contact Form.
+* Add functionality to change language from Spanish to English.
+
+
 ## 👩🏻‍💻 Find me on LinkedIn
-* [Leire Rico](https://www.linkedin.com/in/leirerico/)
+[Leire Rico](https://www.linkedin.com/in/leirerico/)
 
 ## 🙏🏿 Acknowledgments 
 
-To [Adalab team](https://github.com/adalab), for giving me training as a front end developer!
+* To [Adalab team](https://github.com/adalab), for giving me training as a front end developer!
 
-To [this repo of Rafael Pedicini](https://github.com/rafrex/react-router-hash-link), because it has a very good explanation and live example of React Router Hash Link :D
+* To [this repo of Rafael Pedicini](https://github.com/rafrex/react-router-hash-link), because it has a very good explanation and live example of React Router Hash Link :D
 
 Thanks for reading!
