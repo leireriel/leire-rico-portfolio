@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.cd3627d5.chunk.css",
-    "main.js": "./static/js/main.b297fbc7.chunk.js",
-    "main.js.map": "./static/js/main.b297fbc7.chunk.js.map",
+    "main.css": "./static/css/main.1a530b03.chunk.css",
+    "main.js": "./static/js/main.9dbf403f.chunk.js",
+    "main.js.map": "./static/js/main.9dbf403f.chunk.js.map",
     "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
     "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
-    "static/js/2.ae901470.chunk.js": "./static/js/2.ae901470.chunk.js",
-    "static/js/2.ae901470.chunk.js.map": "./static/js/2.ae901470.chunk.js.map",
+    "static/js/2.f291795a.chunk.js": "./static/js/2.f291795a.chunk.js",
+    "static/js/2.f291795a.chunk.js.map": "./static/js/2.f291795a.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.bec6d4d4efed14f9e4f15a7cf865ff9a.js": "./precache-manifest.bec6d4d4efed14f9e4f15a7cf865ff9a.js",
+    "precache-manifest.882dc34f0283d8e1c2bd27c561feb951.js": "./precache-manifest.882dc34f0283d8e1c2bd27c561feb951.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.cd3627d5.chunk.css.map": "./static/css/main.cd3627d5.chunk.css.map",
+    "static/css/main.1a530b03.chunk.css.map": "./static/css/main.1a530b03.chunk.css.map",
     "static/media/Hero.scss": "./static/media/stars.e7942c1d.PNG",
+    "static/media/cards.PNG": "./static/media/cards.04a5bbd0.PNG",
     "static/media/css3.png": "./static/media/css3.e7718d5a.png",
+    "static/media/game.PNG": "./static/media/game.555508c6.PNG",
+    "static/media/harrypotter.PNG": "./static/media/harrypotter.a527b100.PNG",
     "static/media/leire_square.png": "./static/media/leire_square.bc78a253.png",
+    "static/media/monster.PNG": "./static/media/monster.d65660f4.PNG",
+    "static/media/pokedex.PNG": "./static/media/pokedex.253d32a2.PNG",
     "static/media/react.png": "./static/media/react.37fe8322.png",
-    "static/media/sass.png": "./static/media/sass.6f3269ed.png"
+    "static/media/sass.png": "./static/media/sass.6f3269ed.png",
+    "static/media/stackNFQ.PNG": "./static/media/stackNFQ.13ef6363.PNG"
   }
 }
