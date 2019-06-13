@@ -19,9 +19,13 @@
   padding: 10px;
   margin: 20px;
   box-shadow: 1px 1px 5px $colorSecondary;
+  transition: transform ease 1s;
   &:hover {
     background-color: $colorGrey;
-    box-shadow: 0 0 1px $colorLime;
+    transform: translate(0, -10px);
+    .project__title {
+      color: $colorTurquoise;
+    }
     .project__image {
       width: 170px;
     }

@@ -9,7 +9,7 @@
 }
 
 .hero__container {
-  background: url("images/background__rocks.PNG") no-repeat;
+  background: url("images/sea.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -83,10 +83,10 @@
   font-size: $fontSize_medium;
   font-weight: $fontWeight_regular;
   &:hover {
-    box-shadow: 0 0 3px $colorLime;
+    box-shadow: 0 0 15px $colorPrimary;
   }
   &:active {
-    color: $colorLime;
+    color: $colorTurquoise;
   }
   animation-name: arrow;
   animation-duration: 4s;
