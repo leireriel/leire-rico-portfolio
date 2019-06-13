@@ -36,7 +36,7 @@ class Footer extends Component {
             </li>
           </ol>
         </nav>
-        <p className="section__text contact__thanks"><small>Gracias por tu visita ❤</small></p>
+        <p className="section__text contact__thanks"><small>Gracias ❤</small></p>
       </div>
     );
   }
