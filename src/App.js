@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import Developer from './components/Developer';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import { Switch, Route } from 'react-router-dom';
 import './App.scss';
 
 class App extends Component {

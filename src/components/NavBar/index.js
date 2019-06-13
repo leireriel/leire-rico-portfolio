@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import './NavBar.scss';
 
 class Header extends Component {
@@ -8,18 +9,18 @@ class Header extends Component {
         <nav className="nav__container">
           <ol className="nav__list">
             <li className="nav__item">
-              <a href="#..." className="nav__link">
+              <Link to="/" className="nav__link">
                 <i className="fas fa-home"></i>
-              </a>
+              </Link>
             </li>
             <li className="nav__item">
-              <a href="#..." className="nav__link">Quién soy</a>
+              <Link to="/#whoIAm" className="nav__link">Quién soy</Link>
             </li>
             <li className="nav__item">
-              <a href="#..." className="nav__link">Proyectos</a>
+              <Link to="/#projects" className="nav__link">Proyectos</Link>
             </li>
             <li className="nav__item">
-              <a href="#..." className="nav__link">Contacto</a>
+              <Link to="/#contact" className="nav__link">Contacto</Link>              
             </li>
           </ol>
         </nav>

@@ -5,7 +5,7 @@ import './Projects.scss';
 class Projects extends Component {
   render() {
     return (
-      <div className="section__container section__padding">
+      <div id="projects" className="section__container section__padding">
         <div className="section__center">
           <h3 className="section__title">Proyectos</h3>
           <p className="section__text">Estos son algunos de mis últimos proyectos:</p>

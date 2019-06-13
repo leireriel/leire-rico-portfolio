@@ -4,7 +4,7 @@ import './Contact.scss';
 class Footer extends Component {
   render() {
     return (
-      <div className="contact__wrapper section__padding">
+      <div id="contact" className="contact__wrapper section__padding">
         <h3 className="section__title">Contacto</h3>
         <p className="section__text contact__description">¡Visítame en mis redes!</p>
         <nav className="contact__container">
