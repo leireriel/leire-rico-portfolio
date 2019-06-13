@@ -8,20 +8,26 @@ class Header extends Component {
       <div className="nav__wrapper">
         <nav className="nav__container">
           <ol className="nav__list">
-            <li className="nav__item">
-              <Link to="/" className="nav__link">
+            <Link smooth to="/#home" className="nav__link">
+              <li className="nav__item">
                 <i className="fas fa-home"></i>
-              </Link>
-            </li>
-            <li className="nav__item">
-              <Link to="/#whoIAm" className="nav__link">Quién soy</Link>
-            </li>
-            <li className="nav__item">
-              <Link to="/#projects" className="nav__link">Proyectos</Link>
-            </li>
-            <li className="nav__item">
-              <Link to="/#contact" className="nav__link">Contacto</Link>              
-            </li>
+              </li>
+            </Link>
+            <Link smooth to="/#whoIAm" className="nav__link">
+              <li className="nav__item">
+                Quién soy
+              </li>
+            </Link>
+            <Link smooth to="/#projects" className="nav__link">
+              <li className="nav__item">
+                Proyectos
+              </li>
+            </Link>
+            <Link smooth to="/#contact" className="nav__link">
+              <li className="nav__item">
+                Contacto
+              </li>
+            </Link>              
           </ol>
         </nav>
       </div>

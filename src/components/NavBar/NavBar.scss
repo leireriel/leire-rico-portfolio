@@ -22,37 +22,38 @@
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 0 5%;
+  padding: 0;
   @media all and (min-width: 768px) {
     padding: 0 10%;
   }
 }
 
-.nav__item {
+.nav__link {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
   transition: background-color ease 1s;
   height: 65px;
+  text-decoration: none;
   &:hover {
     background-color: $colorPrimary;
     box-shadow: 0 0 5px $colorPrimary;
     cursor: pointer;
-    .nav__link {
+    .nav__item {
       font-weight: $fontWeight_medium;
       color: $colorLime;
     }
   }
   &:active {
-    .nav__link {
+    .nav__item {
       color: $colorSecondary;
     }
   }
 }
 
-.nav__link {
-  text-decoration: none;
+.nav__item {
+  font-weight: $fontWeight_regular;
   color: $colorPrimary;
   transition: color ease 1s;
 }
