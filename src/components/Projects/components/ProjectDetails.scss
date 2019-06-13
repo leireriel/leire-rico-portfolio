@@ -9,20 +9,39 @@
 }
 
 .project__item {
+  display: flex;
+  flex-direction: column;
   background-color: $colorGrey;
   width: 150px;
-  height: 100px;
+  height: 160px;
   font-size: $fontSize_small;
   color: $colorSecondary;
   padding: 10px;
   margin: 20px;
   box-shadow: 1px 1px 5px $colorSecondary;
   &:hover {
-    box-shadow: 1px 1px 5px $colorLime;
+    box-shadow: 0 0 1px $colorLime;
+    .project__image {
+      width: 170px;
+    }
   }
+}
+
+.project__text {
+  font-size: $fontSize_small;
 }
 
 .project__title {
   font-weight: $fontWeight_bold;
+  margin: 0;
 }
 
+.project__image--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__image {
+  width: 150px;
+}

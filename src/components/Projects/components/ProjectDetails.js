@@ -4,13 +4,18 @@ import './ProjectDetails.scss';
 
 class ProjectDetails extends Component {
   render() {
-    const { title, link, description } = this.props;
+    const { title, link, description, image } = this.props;
     return (
       <li className="project__wrapper">
         <a href={link} className="project__link" target="_blank" rel="noopener noreferrer">
           <div className="project__item">
-            <h4 className="project__title">{title}</h4>
-            <p className="project__description">{description}</p>
+            <div className="project__text">
+              <h4 className="project__title">{title}</h4>
+              <p className="project__description">{description}</p>
+            </div>
+            <div className="project__image--container">
+              <img src={image} alt={title} className="project__image"/>
+            </div>
           </div>
         </a>
       </li>
