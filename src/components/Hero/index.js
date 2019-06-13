@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import heroImg from './images/leire_square.png';
+import { HashLink as Link } from 'react-router-hash-link';
 import './Hero.scss';
 
 class Hero extends Component {
@@ -19,7 +20,7 @@ class Hero extends Component {
           </div>
         </div>
         <div className="hero__dinamic--wrapper">
-          <a href="#..." className="hero__dinamic">></a>
+          <Link smooth to="/#whoIAm" className="hero__dinamic">></Link>
         </div>
       </Fragment>
     );
