@@ -15,7 +15,7 @@ You need to install [Node.js](https://nodejs.org/), and then:
 
 * [react](https://www.npmjs.com/package/react) - Framework of the project ⚛ 
 * [react-router-dom](https://www.npmjs.com/package/react-router-dom) - For routing :)
-* [react-router-hash-link]kljdsflkjasdlkfjslñ...
+* [react-router-hash-link](https://www.npmjs.com/package/react-router-hash-link) - To create anchor tag in react router
 * [prop-types](https://www.npmjs.com/package/prop-types) - A way to dynamically verify the props of our components
 * [node-sass](https://www.npmjs.com/package/node-sass) - For the use of SCSS in the project 
 
@@ -42,5 +42,7 @@ You need to install [Node.js](https://nodejs.org/), and then:
 ## 🙏🏿 Acknowledgments 
 
 To [Adalab team](https://github.com/adalab), for giving me training as a front end developer!
+
+To [this repo of Rafael Pedicini](https://github.com/rafrex/react-router-hash-link), because it has a very good explanation and live example of React Router Hash Link :D
 
 Thanks for reading!

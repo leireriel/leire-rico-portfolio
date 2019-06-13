@@ -6,7 +6,7 @@ class Hero extends Component {
   render() {
     return (
       <Fragment>
-        <div className="hero-header__background"></div>
+        <div id="home" className="hero-header__background"></div>
         <div className="hero__container">
           <img 
             src={heroImg}
