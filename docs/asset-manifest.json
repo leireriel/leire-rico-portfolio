@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.35badfca.chunk.css",
+    "main.css": "./static/css/main.00d3f1f2.chunk.css",
     "main.js": "./static/js/main.04e6fa62.chunk.js",
     "main.js.map": "./static/js/main.04e6fa62.chunk.js.map",
     "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
@@ -8,10 +8,9 @@
     "static/js/2.4186efc9.chunk.js": "./static/js/2.4186efc9.chunk.js",
     "static/js/2.4186efc9.chunk.js.map": "./static/js/2.4186efc9.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.d012dda381f41d6a673855f9563a0aa8.js": "./precache-manifest.d012dda381f41d6a673855f9563a0aa8.js",
+    "precache-manifest.9700a21fb1fc7b4fe75fe91859a99aff.js": "./precache-manifest.9700a21fb1fc7b4fe75fe91859a99aff.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.35badfca.chunk.css.map": "./static/css/main.35badfca.chunk.css.map",
-    "static/media/Hero.scss": "./static/media/stars.e7942c1d.PNG",
+    "static/css/main.00d3f1f2.chunk.css.map": "./static/css/main.00d3f1f2.chunk.css.map",
     "static/media/cards.PNG": "./static/media/cards.04a5bbd0.PNG",
     "static/media/css3.png": "./static/media/css3.e7718d5a.png",
     "static/media/game.PNG": "./static/media/game.555508c6.PNG",
@@ -21,6 +20,7 @@
     "static/media/pokedex.PNG": "./static/media/pokedex.253d32a2.PNG",
     "static/media/react.png": "./static/media/react.37fe8322.png",
     "static/media/sass.png": "./static/media/sass.6f3269ed.png",
+    "static/media/Hero.scss": "./static/media/stars.e7942c1d.PNG",
     "static/media/stackNFQ.PNG": "./static/media/stackNFQ.13ef6363.PNG"
   }
 }
