@@ -8,6 +8,10 @@
   background-color: $colorSecondary;
   color: $colorPrimary;
   min-height: 100vh;
+  padding: 0 20px;
+  @media all and (min-width: 450px) {
+    padding: 0 40px;
+  }
 }
 
 .contact__description {
