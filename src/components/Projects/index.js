@@ -22,38 +22,44 @@ class Projects extends Component {
             <ProjectDetails
               title="Harry Potter"
               link="http://beta.adalab.es/f-m3-evaluacion-final-leireriel/#/"
-              description="Buscador de personajes - SPA React"
+              description="Buscador de personajes - SPA React (¡con carrusel de imágenes!)"
               image={harrypotterImg}
+              code="https://github.com/leireriel/harry-potter-searcher-react"
             />
             <ProjectDetails 
               title="Generador de tarjetas"
               link="http://beta.adalab.es/f-m3-unicodes/#/"
               description="Código refactorizado y migrado de JS nativo a React"
               image={cardsImg}
+              code="https://github.com/Adalab/f-m3-unicodes"
             />
             <ProjectDetails 
               title="Monstruito"
               link="https://codepen.io/leireriel/pen/ZZEZNv"
               description="Creado con HTML, CSS y JS"
               image={monsterImg}
+              code="https://github.com/leireriel/little-monster"
             />
             <ProjectDetails 
               title="Pokedex"
               link="http://beta.adalab.es/f-m3-evaluacion-intermedia-leireriel/"
               description="¡Selecciona tus favoritos! - React"
               image={pokedexImg}
+              code="https://github.com/leireriel/pokedex"
             />
             <ProjectDetails 
               title="Tipo Stack Overflow"
               link="http://beta.adalab.es/fairfax-m4-stack-nfq/#/home"
               description="Foro creado para empresa NFQ - SPA React"
               image={stackNFQImg}
+              code="https://github.com/Adalab/fairfax-m4-stack-nfq"
             />
             <ProjectDetails 
               title="Juego"
               link="http://beta.adalab.es/f-m2-evaluacion-intermedia-leireriel/"
               description="¡Adivina el número secreto! - Vanilla JS"
               image={gameImg}
+              code="https://github.com/leireriel/guess-the-number-GAME-JS"
             />
           </ol>
           <a href="https://github.com/leireriel/" className="section__text projects__github--link" target="_blank" rel="noopener noreferrer">

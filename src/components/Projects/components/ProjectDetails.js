@@ -4,7 +4,7 @@ import './ProjectDetails.scss';
 
 class ProjectDetails extends Component {
   render() {
-    const { title, link, description, image } = this.props;
+    const { title, link, description, image, code } = this.props;
     return (
       <li className="project__wrapper">
         <a href={link} className="project__link" target="_blank" rel="noopener noreferrer">
@@ -17,6 +17,10 @@ class ProjectDetails extends Component {
               <img src={image} alt={title} className="project__image"/>
             </div>
           </div>
+        </a>
+        <a href={code} className="project__code--container">
+          <p className="project__code--text">Mira el código</p>
+          <i className="fab fa-github project__code--icon"></i>
         </a>
       </li>
     );

@@ -2,6 +2,7 @@
 
 .project__wrapper {
   list-style: none;
+  position: relative;
 }
 
 .project__link {
@@ -17,14 +18,19 @@
   font-size: $fontSize_small;
   color: $colorSecondary;
   padding: 10px;
-  margin: 20px;
+  margin: 20px 40px;
   box-shadow: 1px 1px 5px $colorSecondary;
   transition: transform ease 1s;
+  position: relative;
+  cursor: pointer;
   &:hover {
     background-color: $colorGrey;
     transform: translate(0, -10px);
     .project__title {
       color: $colorTurquoise;
+    }
+    .project__image--container {
+      left: 0;
     }
     .project__image {
       width: 170px;
@@ -45,8 +51,50 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 3px;
+  left: 10px;
 }
 
 .project__image {
   width: 150px;
+}
+
+.project__code--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: $colorPrimary;
+  background-color: $colorSecondary;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  position: absolute;
+  top: 40px;
+  right: -10px;
+  transition: width ease 1s, height ease 1s;
+  cursor: pointer;
+  &:hover {
+    background-color: $colorTurquoise;
+    width: 35px;
+    height: 35px;
+    .project__code--text {
+      display: none;
+    }
+    .project__code--icon {
+      display: block;
+      background-color: $colorTurquoise;
+    }
+  }
+}
+
+.project__code--text {
+  font-size: $fontSize_mini;
+  margin: 0;
+}
+
+.project__code--icon {
+  display: none;
 }
