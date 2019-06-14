@@ -34,6 +34,7 @@ You need to install [Node.js](https://nodejs.org/), and then:
         |_Contact
     |_styles
         |_core
+            |_variables
 ```
 
 ## 📈 To Do list

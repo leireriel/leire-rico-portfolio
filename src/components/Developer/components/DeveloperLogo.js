@@ -12,6 +12,7 @@ class DeveloperLogo extends Component {
           alt={description}
           className="developer__image"
         />
+        <p className="developer__description">{description}</p>
       </li>
     );
   }

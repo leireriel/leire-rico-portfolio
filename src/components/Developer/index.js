@@ -28,13 +28,13 @@ class Developer extends Component {
             <h4 className="section__text">Lenguajes y tecnologías que uso por ahora:</h4>
           </div>
           <ol className="section__images--container developer__container">
-            <DeveloperLogo link={reactImg} description="Librería React, Javascript" />
+            <DeveloperLogo link={reactImg} description="React" />
             <DeveloperLogo link={javascriptImg} description="Javascript" />
             <DeveloperLogo link={html5Img} description="HTML" />
             <DeveloperLogo link={css3Img} description="CSS" />
-            <DeveloperLogo link={sassImg} description="SASS, SCSS" />
+            <DeveloperLogo link={sassImg} description="SASS" />
             <DeveloperLogo link={gitImg} description="Git" />
-            <DeveloperLogo link={npmImg} description="NPM gestor de paquetes" />
+            <DeveloperLogo link={npmImg} description="NPM" />
           </ol>
         </div>
       </Fragment>
