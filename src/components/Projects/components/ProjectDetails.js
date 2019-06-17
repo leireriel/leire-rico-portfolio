@@ -18,7 +18,7 @@ class ProjectDetails extends Component {
             </div>
           </div>
         </a>
-        <a href={code} className="project__code--container">
+        <a href={code} className="project__code--container" target="_blank" rel="noopener noreferrer">
           <p className="project__code--text">Mira el código</p>
           <i className="fab fa-github project__code--icon"></i>
         </a>
