@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.872c67c4.chunk.css",
+    "main.css": "./static/css/main.87c83e98.chunk.css",
     "main.js": "./static/js/main.c0e41efb.chunk.js",
     "main.js.map": "./static/js/main.c0e41efb.chunk.js.map",
     "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
@@ -8,9 +8,9 @@
     "static/js/2.4186efc9.chunk.js": "./static/js/2.4186efc9.chunk.js",
     "static/js/2.4186efc9.chunk.js.map": "./static/js/2.4186efc9.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.e127d89ad59ce217b8e839e596505cb8.js": "./precache-manifest.e127d89ad59ce217b8e839e596505cb8.js",
+    "precache-manifest.f54b60448c1c1cf54d1bb119f07cbcd9.js": "./precache-manifest.f54b60448c1c1cf54d1bb119f07cbcd9.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.872c67c4.chunk.css.map": "./static/css/main.872c67c4.chunk.css.map",
+    "static/css/main.87c83e98.chunk.css.map": "./static/css/main.87c83e98.chunk.css.map",
     "static/media/cards.PNG": "./static/media/cards.04a5bbd0.PNG",
     "static/media/css3.png": "./static/media/css3.e7718d5a.png",
     "static/media/game.PNG": "./static/media/game.555508c6.PNG",

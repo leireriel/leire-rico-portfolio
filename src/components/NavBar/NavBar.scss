@@ -29,12 +29,8 @@
 }
 
 .nav__item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-grow: 1;
   transition: background-color ease 1s;
-  height: 65px;
   &:hover {
     background-color: $colorPrimary;
     box-shadow: 0 0 5px $colorPrimary;
@@ -52,6 +48,11 @@
 }
 
 .nav__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 65px;
   font-weight: $fontWeight_regular;
   color: $colorPrimary;
   text-decoration: none;
