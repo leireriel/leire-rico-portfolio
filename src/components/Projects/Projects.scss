@@ -6,10 +6,18 @@
   padding: 0;
 }
 
-.projects__github--link {
+.projects__link {
   color: $colorSecondary;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
   }
+}
+
+.projects__link--button {
+  margin: 5px;
+  padding: 5px;
+  background-color: $colorPink;
+  color: $colorPrimary;
+  border-radius: 3px;
 }

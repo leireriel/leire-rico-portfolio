@@ -62,7 +62,16 @@ class Projects extends Component {
               code="https://github.com/leireriel/guess-the-number-GAME-JS"
             />
           </ol>
-          <a href="https://github.com/leireriel/" className="section__text projects__github--link" target="_blank" rel="noopener noreferrer">
+          <p className="section__text">
+              ¡También he hecho un bot de Twitter! 
+              <a href="https://twitter.com/BTelescopia" className="projects__link projects__link--button" target="_blank" rel="noopener noreferrer">
+                Bot
+              </a>
+              <a href="https://github.com/leireriel/bot-telescopia" className="projects__link projects__link--button" target="_blank" rel="noopener noreferrer">
+                Repo
+              </a>
+          </p>
+          <a href="https://github.com/leireriel/" className="section__text projects__link" target="_blank" rel="noopener noreferrer">
             <p>
               <span role="img" aria-label="emoji of arrow">👉</span>
               Aquí están todos mis repositorios de Git Hub
