@@ -21,49 +21,49 @@ class Projects extends Component {
           <ol className="section__images--container projects__container">
             <ProjectDetails
               title="Harry Potter"
-              link="http://beta.adalab.es/f-m3-evaluacion-final-leireriel/#/"
+              link="https://leireriel.github.io/harry-potter-searcher-react/#/"
               description="Buscador de personajes - SPA React (¡con carrusel de imágenes!)"
               image={harrypotterImg}
               code="https://github.com/leireriel/harry-potter-searcher-react"
             />
-            <ProjectDetails 
+            <ProjectDetails
               title="Generador de tarjetas"
-              link="http://beta.adalab.es/f-m3-unicodes/#/"
+              link="https://leireriel.github.io/awesome-profile-cards-ReactJS/#/"
               description="Código refactorizado y migrado de JS nativo a React"
               image={cardsImg}
-              code="https://github.com/Adalab/f-m3-unicodes"
+              code="https://github.com/leireriel/awesome-profile-cards-ReactJS"
             />
-            <ProjectDetails 
+            <ProjectDetails
               title="Monstruito"
               link="https://codepen.io/leireriel/pen/ZZEZNv"
               description="Creado con HTML, CSS y JS"
               image={monsterImg}
               code="https://github.com/leireriel/little-monster"
             />
-            <ProjectDetails 
+            <ProjectDetails
               title="Pokedex"
-              link="http://beta.adalab.es/f-m3-evaluacion-intermedia-leireriel/"
+              link="https://leireriel.github.io/pokedex/"
               description="¡Selecciona tus favoritos! - React"
               image={pokedexImg}
               code="https://github.com/leireriel/pokedex"
             />
-            <ProjectDetails 
+            <ProjectDetails
               title="Tipo Stack Overflow"
-              link="http://beta.adalab.es/fairfax-m4-stack-nfq/#/home"
+              link="https://leireriel.github.io/stack-nfq-REACT/#/home"
               description="Foro creado para empresa NFQ - SPA React"
               image={stackNFQImg}
-              code="https://github.com/Adalab/fairfax-m4-stack-nfq"
+              code="https://github.com/leireriel/stack-nfq-REACT"
             />
-            <ProjectDetails 
+            <ProjectDetails
               title="Juego"
-              link="http://beta.adalab.es/f-m2-evaluacion-intermedia-leireriel/"
+              link="https://leireriel.github.io/guess-the-number-GAME-JS/"
               description="¡Adivina el número secreto! - Vanilla JS"
               image={gameImg}
               code="https://github.com/leireriel/guess-the-number-GAME-JS"
             />
           </ol>
           <p className="section__text">
-              ¡También he hecho un bot de Twitter! 
+              ¡También he hecho un bot de Twitter!
               <a href="https://twitter.com/BTelescopia" className="projects__link projects__link--button" target="_blank" rel="noopener noreferrer">
                 Bot
               </a>
